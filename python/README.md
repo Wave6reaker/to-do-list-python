@@ -33,29 +33,8 @@ python manage.py runserver
 - `PATCH /api/tasks/{id}/` - частично обновить задачу
 - `DELETE /api/tasks/{id}/` - удалить задачу
 
-### Пример создания задачи:
-
-```json
-{
-    "title": "Изучить Django REST Framework",
-    "description": "Изучить основы DRF",
-    "status": "pending",
-    "priority": "high",
-    "due_date": "2024-12-31T23:59:59Z"
-}
-```
-
-### Статусы задач:
-- `pending` - Ожидает выполнения
-- `in_progress` - В процессе
-- `completed` - Завершена
-
-### Приоритеты:
-- `low` - Низкий
-- `medium` - Средний
-- `high` - Высокий
-
 ## Тестирование
 
-Используйте интерфейс DRF в браузере по адресу `http://127.0.0.1:8000/api/tasks/` или инструменты типа Postman/curl.
+ `http://127.0.0.1:8000/api/tasks/`
+
 
