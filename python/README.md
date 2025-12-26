@@ -1,8 +1,4 @@
-# To-Do CRUD API
-
-Минимальное CRUD API для управления личными задачами с приоритетами и статусом выполнения.
-
-## Установка
+# To-Do
 
 1. Установите зависимости:
 ```bash
@@ -20,7 +16,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-## API Endpoints
+## Эндпоинты
 
 После запуска сервера API будет доступно по адресу: `http://127.0.0.1:8000/api/`
 
@@ -31,10 +27,11 @@ python manage.py runserver
 - `GET /api/tasks/{id}/` - получить задачу по ID
 - `PUT /api/tasks/{id}/` - обновить задачу (полное обновление)
 - `PATCH /api/tasks/{id}/` - частично обновить задачу
-- `DELETE /api/tasks/{id}/` - удалить задачу
+- `DELETE /api/tasks/{id}/` - удалить 
 
 ## Тестирование
 
  `http://127.0.0.1:8000/api/tasks/`
+
 
 
